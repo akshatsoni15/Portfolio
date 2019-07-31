@@ -1,0 +1,157 @@
+body{
+  background-image: url("bg.jpg");
+  background-attachment: fixed;
+ }
+
+.jumbotron{
+  background: linear-gradient(to right,rgba(109, 107, 107,1),rgba(0, 0, 0,0));
+  margin-top: 10%;
+}
+.pic{
+  width: 60%;
+  height: auto;
+  margin-left: 60%;
+  margin-right: 20%;
+}
+.int {
+  font-size: 400%;
+  color: rgba(66, 244, 155, 0.5);
+}
+.int1 {
+  font-size: 200%;
+  color: rgba(159, 234, 242, 0.5);
+}
+#homebtn{
+  width: 5%;
+}
+.navbar{
+  background:rgba(255, 255, 255, 0.6);
+}
+.nav-link{
+  color: rgb(0, 0, 0);
+}
+.navbar-toggler-icon{
+  background: url("https://image.flaticon.com/icons/svg/71/71818.svg");
+}
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #8defef;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+.progress{
+    height: 7px;
+    background: #fff;
+    border-radius: 0;
+    margin-bottom: 30px;
+    overflow: visible;
+    box-shadow: none;
+}
+.progress .progress-bar{
+    background: #fff;
+    box-shadow: none;
+    border-bottom: 4px dotted #ff1140;
+    border-radius: 0;
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar:before{
+    content: "";
+    border-bottom: 20px solid #ff1140;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+.progress-bar .progress-value{
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: -33px;
+    right: 0;
+}
+.progress.yellow .progress-bar,
+.progress.yellow .progress-bar:before{ border-bottom-color: #fec100; }
+.progress.purple .progress-bar,
+.progress.purple .progress-bar:before{ border-bottom-color: #663399; }
+.progress.green .progress-bar,
+.progress.green .progress-bar:before{ border-bottom-color: #0ead69; }
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+#skills{
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 5%;
+
+}
+.sk{
+  background: none;
+  text-align: center;
+  margin-top: 5%;
+  color: rgba(48, 255, 54, 0.8);
+  margin-left: 40%;
+  margin-right: 35%;
+  border-bottom: 2px solid rgba(247, 242, 246, 0.5);
+}
+#education1{
+margin-top: 5%;
+margin-left: 15%;
+}
+.ins{
+  color: rgba(48, 255, 255, 0.5);
+  margin-top: 5%;
+  font-size: 200%;
+}
+#hp,#pillars,#navals{
+  width: 60%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#college{
+  background:linear-gradient(to left,rgba(109, 107, 107,1),rgba(0, 0, 0,0));
+  margin-top: 5%;
+  font-style: normal;
+  color: rgba(182, 244, 66, 0.5);
+  margin-left: 10%;
+  margin-right: 20%;
+}
+#cpic{
+  float: right;
+  width: 40%;
+  height: auto;
+}
+h3{
+  width: 60%;
+  height: auto;
+}
+.col-lg-9{
+  margin-top: 10%;
+}
+#u{
+  margin-top: 3%;
+  margin-left: 20%;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 200%;
+  color: rgba(244, 214, 171,0.5);
+
+}
+.m{
+  background: rgba(0,0, 0, 0.5);
+}
+.icon{
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 50%;
+}
